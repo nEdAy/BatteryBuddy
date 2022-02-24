@@ -13,9 +13,8 @@ struct BatteryBuddyApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
     var body: some Scene {
-        WindowGroup {
-            EmptyView()
-                .frame(width: .zero)
+        Settings {
+          EmptyView()
         }
     }
 }
