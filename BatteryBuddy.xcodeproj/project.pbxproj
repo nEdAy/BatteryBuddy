@@ -7,22 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00372DE927E17995007A8B48 /* UpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00372DE827E17995007A8B48 /* UpdateViewModel.swift */; };
+		007A185127D5E96B00FDE520 /* MenuBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 007A185027D5E96B00FDE520 /* MenuBuilder */; };
+		007A186727D7076000FDE520 /* MenuInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A186527D7076000FDE520 /* MenuInfoViewModel.swift */; };
+		007A186827D7076000FDE520 /* MenuInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A186627D7076000FDE520 /* MenuInfoView.swift */; };
+		007A186B27D70F6800FDE520 /* Preferences in Frameworks */ = {isa = PBXBuildFile; productRef = 007A186A27D70F6800FDE520 /* Preferences */; };
+		007A186D27D7398900FDE520 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A186C27D7398900FDE520 /* GeneralView.swift */; };
+		007A187027D73C3200FDE520 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A186F27D73C3200FDE520 /* PreferencesWindow.swift */; };
+		00931D8027D1CD4B0028DC8C /* BatteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D7E27D1CD4B0028DC8C /* BatteryService.swift */; };
+		00931D8127D1CD4B0028DC8C /* BatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D7F27D1CD4B0028DC8C /* BatteryState.swift */; };
+		00931D8327D1CD980028DC8C /* TimeRemaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D8227D1CD980028DC8C /* TimeRemaining.swift */; };
+		00931D8727D1CDE70028DC8C /* BatteryRegistryPropertyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D8427D1CDE70028DC8C /* BatteryRegistryPropertyKey.swift */; };
+		00931D8827D1CDE70028DC8C /* PowerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D8527D1CDE70028DC8C /* PowerSource.swift */; };
+		00931D8927D1CDE70028DC8C /* BatteryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D8627D1CDE70028DC8C /* BatteryError.swift */; };
+		00931D8B27D1CE000028DC8C /* Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931D8A27D1CE000028DC8C /* Percentage.swift */; };
+		00A7E06327D1A95400E908B5 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 00A7E06227D1A95400E908B5 /* Sentry */; };
 		00ADF33227C5E31E0027AC04 /* BatteryBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADF33127C5E31E0027AC04 /* BatteryBuddyApp.swift */; };
-		00ADF33427C5E31E0027AC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADF33327C5E31E0027AC04 /* ContentView.swift */; };
-		00ADF33627C5E31F0027AC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ADF33527C5E31F0027AC04 /* Assets.xcassets */; };
 		00ADF33927C5E31F0027AC04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ADF33827C5E31F0027AC04 /* Preview Assets.xcassets */; };
+		00B4391327D0C0C40017FB7C /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 00B4391227D0C0C40017FB7C /* Sparkle */; };
+		00B4391627D0C1E10017FB7C /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 00B4391527D0C1E10017FB7C /* LaunchAtLogin */; };
 		63D8609D33F5D0E29427CF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D868E6713ECFCC72D659EA /* AppDelegate.swift */; };
+		63D863D45F4099F3CF91A484 /* StatusNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D863767D93A8469B1BC805 /* StatusNotification.swift */; };
+		63D8643E1FD732232D5915DB /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86A88B6D79FE8330A6550 /* NSImageExtension.swift */; };
+		63D8652141483C48305408DA /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86F6CF35124EEC2A48145 /* UserPreferences.swift */; };
+		63D867CEAF79534BD8456254 /* BatteryImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8620CA25E3810EF61A6D7 /* BatteryImageCache.swift */; };
+		63D867DB99E5EF690E5AE36C /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8688B11FB4248180A52F3 /* NotificationKey.swift */; };
+		63D868C87E6EF954B94B2FD5 /* StatusItemMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86BE5685CAA6CA2FC0DB4 /* StatusItemMenu.swift */; };
+		63D86CB8CB2DD73EE0A04EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D8667ACB6ECB4C41AFDD01 /* Assets.xcassets */; };
+		63D86CBC0CB9E1D69CEB7BAB /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8690E53BC39F17930546A /* PreferencesKey.swift */; };
+		63D86DBCC7A5D25032509B61 /* StatusBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86658C15D4E1918CF7B74 /* StatusBarItem.swift */; };
+		63D86FE5532EBC922B34681C /* StatusBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86CC9600797F4F0D8853D /* StatusBarIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00372DE827E17995007A8B48 /* UpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewModel.swift; sourceTree = "<group>"; };
+		007A185B27D705CA00FDE520 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../../../AppCodeProjects/apple-juice/AppleJuice/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		007A185D27D705E500FDE520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "../../../../AppCodeProjects/apple-juice/AppleJuice/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		007A185E27D705F300FDE520 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../../AppCodeProjects/apple-juice/AppleJuice/en.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		007A185F27D705FB00FDE520 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "../../../../AppCodeProjects/apple-juice/AppleJuice/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		007A186027D7061300FDE520 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "../../../../AppCodeProjects/apple-juice/AppleJuice/it.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		007A186527D7076000FDE520 /* MenuInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInfoViewModel.swift; sourceTree = "<group>"; };
+		007A186627D7076000FDE520 /* MenuInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInfoView.swift; sourceTree = "<group>"; };
+		007A186C27D7398900FDE520 /* GeneralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		007A186F27D73C3200FDE520 /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		00931D7E27D1CD4B0028DC8C /* BatteryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryService.swift; sourceTree = "<group>"; };
+		00931D7F27D1CD4B0028DC8C /* BatteryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryState.swift; sourceTree = "<group>"; };
+		00931D8227D1CD980028DC8C /* TimeRemaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeRemaining.swift; sourceTree = "<group>"; };
+		00931D8427D1CDE70028DC8C /* BatteryRegistryPropertyKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryRegistryPropertyKey.swift; sourceTree = "<group>"; };
+		00931D8527D1CDE70028DC8C /* PowerSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerSource.swift; sourceTree = "<group>"; };
+		00931D8627D1CDE70028DC8C /* BatteryError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryError.swift; sourceTree = "<group>"; };
+		00931D8A27D1CE000028DC8C /* Percentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Percentage.swift; sourceTree = "<group>"; };
 		00ADF32E27C5E31E0027AC04 /* BatteryBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ADF33127C5E31E0027AC04 /* BatteryBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryBuddyApp.swift; sourceTree = "<group>"; };
-		00ADF33327C5E31E0027AC04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00ADF33527C5E31F0027AC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00ADF33827C5E31F0027AC04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00ADF33A27C5E31F0027AC04 /* BatteryBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatteryBuddy.entitlements; sourceTree = "<group>"; };
-		00ADF34027C5ECD90027AC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		00ADF34027C5ECD90027AC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D8620CA25E3810EF61A6D7 /* BatteryImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryImageCache.swift; sourceTree = "<group>"; };
+		63D863767D93A8469B1BC805 /* StatusNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusNotification.swift; sourceTree = "<group>"; };
+		63D86658C15D4E1918CF7B74 /* StatusBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarItem.swift; sourceTree = "<group>"; };
+		63D8667ACB6ECB4C41AFDD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D867B7C2704C423D04B05D /* BatteryBuddy.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BatteryBuddy.entitlements; sourceTree = "<group>"; };
+		63D8688B11FB4248180A52F3 /* NotificationKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
 		63D868E6713ECFCC72D659EA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D8690E53BC39F17930546A /* PreferencesKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesKey.swift; sourceTree = "<group>"; };
+		63D86A88B6D79FE8330A6550 /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		63D86BE5685CAA6CA2FC0DB4 /* StatusItemMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemMenu.swift; sourceTree = "<group>"; };
+		63D86CC9600797F4F0D8853D /* StatusBarIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarIcon.swift; sourceTree = "<group>"; };
+		63D86F6CF35124EEC2A48145 /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,12 +80,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B4391627D0C1E10017FB7C /* LaunchAtLogin in Frameworks */,
+				007A186B27D70F6800FDE520 /* Preferences in Frameworks */,
+				00B4391327D0C0C40017FB7C /* Sparkle in Frameworks */,
+				00A7E06327D1A95400E908B5 /* Sentry in Frameworks */,
+				007A185127D5E96B00FDE520 /* MenuBuilder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007A185227D6ED3E00FDE520 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				63D863767D93A8469B1BC805 /* StatusNotification.swift */,
+				63D8688B11FB4248180A52F3 /* NotificationKey.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		007A186E27D739D800FDE520 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				63D8620CA25E3810EF61A6D7 /* BatteryImageCache.swift */,
+				63D86A88B6D79FE8330A6550 /* NSImageExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		00931D8C27D1CE1F0028DC8C /* BatteryKit */ = {
+			isa = PBXGroup;
+			children = (
+				00931D8A27D1CE000028DC8C /* Percentage.swift */,
+				00931D8627D1CDE70028DC8C /* BatteryError.swift */,
+				00931D8427D1CDE70028DC8C /* BatteryRegistryPropertyKey.swift */,
+				00931D8527D1CDE70028DC8C /* PowerSource.swift */,
+				00931D8227D1CD980028DC8C /* TimeRemaining.swift */,
+				00931D7E27D1CD4B0028DC8C /* BatteryService.swift */,
+				00931D7F27D1CD4B0028DC8C /* BatteryState.swift */,
+			);
+			path = BatteryKit;
+			sourceTree = "<group>";
+		};
 		00ADF32527C5E31E0027AC04 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +143,16 @@
 			isa = PBXGroup;
 			children = (
 				00ADF34027C5ECD90027AC04 /* Info.plist */,
-				00ADF33127C5E31E0027AC04 /* BatteryBuddyApp.swift */,
-				00ADF33327C5E31E0027AC04 /* ContentView.swift */,
-				00ADF33527C5E31F0027AC04 /* Assets.xcassets */,
-				00ADF33A27C5E31F0027AC04 /* BatteryBuddy.entitlements */,
-				63D868E6713ECFCC72D659EA /* AppDelegate.swift */,
+				63D867B7C2704C423D04B05D /* BatteryBuddy.entitlements */,
+				63D86CE1D89765806D7EC746 /* Resources */,
 				00ADF33727C5E31F0027AC04 /* Preview Content */,
+				00931D8C27D1CE1F0028DC8C /* BatteryKit */,
+				007A185227D6ED3E00FDE520 /* Notification */,
+				63D8692238D6444DFC1BDBBB /* Preferences */,
+				63D86A7E54E5BBEEAA5BBFAB /* StatusItem */,
+				63D868E6713ECFCC72D659EA /* AppDelegate.swift */,
+				00ADF33127C5E31E0027AC04 /* BatteryBuddyApp.swift */,
+				00372DE827E17995007A8B48 /* UpdateViewModel.swift */,
 			);
 			path = BatteryBuddy;
 			sourceTree = "<group>";
@@ -74,6 +165,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		63D8692238D6444DFC1BDBBB /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				63D86F6CF35124EEC2A48145 /* UserPreferences.swift */,
+				63D8690E53BC39F17930546A /* PreferencesKey.swift */,
+				007A186F27D73C3200FDE520 /* PreferencesWindow.swift */,
+				007A186C27D7398900FDE520 /* GeneralView.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		63D86A7E54E5BBEEAA5BBFAB /* StatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				007A186E27D739D800FDE520 /* Image */,
+				007A186627D7076000FDE520 /* MenuInfoView.swift */,
+				007A186527D7076000FDE520 /* MenuInfoViewModel.swift */,
+				63D86658C15D4E1918CF7B74 /* StatusBarItem.swift */,
+				63D86CC9600797F4F0D8853D /* StatusBarIcon.swift */,
+				63D86BE5685CAA6CA2FC0DB4 /* StatusItemMenu.swift */,
+			);
+			path = StatusItem;
+			sourceTree = "<group>";
+		};
+		63D86CE1D89765806D7EC746 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63D8667ACB6ECB4C41AFDD01 /* Assets.xcassets */,
+				007A185A27D705CA00FDE520 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,12 +208,21 @@
 				00ADF32A27C5E31E0027AC04 /* Sources */,
 				00ADF32B27C5E31E0027AC04 /* Frameworks */,
 				00ADF32C27C5E31E0027AC04 /* Resources */,
+				007A183E27D5C09000FDE520 /* Run Script "Launch at Login Helper" */,
+				0011340127D7569100F59F77 /* Run Script "SwiftLint" */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BatteryBuddy;
+			packageProductDependencies = (
+				00B4391227D0C0C40017FB7C /* Sparkle */,
+				00B4391527D0C1E10017FB7C /* LaunchAtLogin */,
+				00A7E06227D1A95400E908B5 /* Sentry */,
+				007A185027D5E96B00FDE520 /* MenuBuilder */,
+				007A186A27D70F6800FDE520 /* Preferences */,
+			);
 			productName = BatteryBuddy;
 			productReference = 00ADF32E27C5E31E0027AC04 /* BatteryBuddy.app */;
 			productType = "com.apple.product-type.application";
@@ -116,8 +249,18 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				it,
 			);
 			mainGroup = 00ADF32527C5E31E0027AC04;
+			packageReferences = (
+				00B4391127D0C0C40017FB7C /* XCRemoteSwiftPackageReference "Sparkle" */,
+				00B4391427D0C1E10017FB7C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				00A7E06127D1A95400E908B5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+				007A184F27D5E96B00FDE520 /* XCRemoteSwiftPackageReference "MenuBuilder" */,
+				007A186927D70F6800FDE520 /* XCRemoteSwiftPackageReference "Preferences" */,
+			);
 			productRefGroup = 00ADF32F27C5E31E0027AC04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,30 +276,105 @@
 			buildActionMask = 2147483647;
 			files = (
 				00ADF33927C5E31F0027AC04 /* Preview Assets.xcassets in Resources */,
-				00ADF33627C5E31F0027AC04 /* Assets.xcassets in Resources */,
+				63D86CB8CB2DD73EE0A04EBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0011340127D7569100F59F77 /* Run Script "SwiftLint" */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script \"SwiftLint\"";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint not found! Please install SwiftLint from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		007A183E27D5C09000FDE520 /* Run Script "Launch at Login Helper" */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script \"Launch at Login Helper\"";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00ADF32A27C5E31E0027AC04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00ADF33427C5E31E0027AC04 /* ContentView.swift in Sources */,
+				007A186D27D7398900FDE520 /* GeneralView.swift in Sources */,
+				00931D8927D1CDE70028DC8C /* BatteryError.swift in Sources */,
 				00ADF33227C5E31E0027AC04 /* BatteryBuddyApp.swift in Sources */,
+				00931D8827D1CDE70028DC8C /* PowerSource.swift in Sources */,
+				00931D8727D1CDE70028DC8C /* BatteryRegistryPropertyKey.swift in Sources */,
 				63D8609D33F5D0E29427CF3A /* AppDelegate.swift in Sources */,
+				00931D8027D1CD4B0028DC8C /* BatteryService.swift in Sources */,
+				007A186827D7076000FDE520 /* MenuInfoView.swift in Sources */,
+				007A186727D7076000FDE520 /* MenuInfoViewModel.swift in Sources */,
+				00931D8127D1CD4B0028DC8C /* BatteryState.swift in Sources */,
+				00931D8327D1CD980028DC8C /* TimeRemaining.swift in Sources */,
+				00931D8B27D1CE000028DC8C /* Percentage.swift in Sources */,
+				007A187027D73C3200FDE520 /* PreferencesWindow.swift in Sources */,
+				63D8652141483C48305408DA /* UserPreferences.swift in Sources */,
+				63D86CBC0CB9E1D69CEB7BAB /* PreferencesKey.swift in Sources */,
+				63D863D45F4099F3CF91A484 /* StatusNotification.swift in Sources */,
+				63D867DB99E5EF690E5AE36C /* NotificationKey.swift in Sources */,
+				63D867CEAF79534BD8456254 /* BatteryImageCache.swift in Sources */,
+				63D8643E1FD732232D5915DB /* NSImageExtension.swift in Sources */,
+				63D86DBCC7A5D25032509B61 /* StatusBarItem.swift in Sources */,
+				63D86FE5532EBC922B34681C /* StatusBarIcon.swift in Sources */,
+				63D868C87E6EF954B94B2FD5 /* StatusItemMenu.swift in Sources */,
+				00372DE927E17995007A8B48 /* UpdateViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		007A185A27D705CA00FDE520 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007A185B27D705CA00FDE520 /* zh-Hans */,
+				007A185D27D705E500FDE520 /* Base */,
+				007A185E27D705F300FDE520 /* en */,
+				007A185F27D705FB00FDE520 /* zh-Hant */,
+				007A186027D7061300FDE520 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00ADF33B27C5E31F0027AC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -218,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -274,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatteryBuddy/BatteryBuddy.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -284,11 +503,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BatteryBuddy/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Kevin SuTJ. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.neday.BatteryBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,21 +524,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatteryBuddy/BatteryBuddy.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BatteryBuddy/Preview Content\"";
-				DEVELOPMENT_TEAM = 5ASZA7529A;
+				DEVELOPMENT_TEAM = 2EY9F37LGK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BatteryBuddy/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Kevin SuTJ. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.neday.BatteryBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +571,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		007A184F27D5E96B00FDE520 /* XCRemoteSwiftPackageReference "MenuBuilder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/j-f1/MenuBuilder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		007A186927D70F6800FDE520 /* XCRemoteSwiftPackageReference "Preferences" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Preferences";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+		00A7E06127D1A95400E908B5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		00B4391127D0C0C40017FB7C /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		00B4391427D0C1E10017FB7C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		007A185027D5E96B00FDE520 /* MenuBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007A184F27D5E96B00FDE520 /* XCRemoteSwiftPackageReference "MenuBuilder" */;
+			productName = MenuBuilder;
+		};
+		007A186A27D70F6800FDE520 /* Preferences */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007A186927D70F6800FDE520 /* XCRemoteSwiftPackageReference "Preferences" */;
+			productName = Preferences;
+		};
+		00A7E06227D1A95400E908B5 /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00A7E06127D1A95400E908B5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
+		00B4391227D0C0C40017FB7C /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B4391127D0C0C40017FB7C /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+		00B4391527D0C1E10017FB7C /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B4391427D0C1E10017FB7C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 00ADF32627C5E31E0027AC04 /* Project object */;
 }

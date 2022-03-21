@@ -1,23 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="167c03d9-9033-406e-873e-1fa4920e9346" name="Changes" comment="add AppDelegate class">
-      <change afterPath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/project.xcworkspace/xcuserdata/neday.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/xcuserdata/neday.xcuserdatad/xcschemes/BatteryBuddy.xcscheme" afterDir="false" />
+    <list default="true" id="167c03d9-9033-406e-873e-1fa4920e9346" name="Changes" comment="add Sentry;">
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/BatteryError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/BatteryRegistryPropertyKey.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/BatteryService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/BatteryState.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/Percentage.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/PowerSource.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryKit/TimeRemaining.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Notification/NotificationKey.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Notification/StatusNotification.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Preferences/GeneralView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Preferences/PreferencesKey.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Preferences/PreferencesWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Preferences/UserPreferences.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFill.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFill.imageset/Fill.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFillCapLeft.imageset/CapLeft.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFillCapLeft.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFillCapRight.imageset/CapRight.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryFillCapRight.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryOutline.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/BatteryOutline.imageset/Outline.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/ChargedAndPlugged.imageset/Charged and Plugged.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/ChargedAndPlugged.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Charging.imageset/Charging.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Charging.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/DeadCropped.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/DeadCropped.imageset/Dead Cropped.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/LowBattery.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/LowBattery.imageset/Low Battery.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/None.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/None.imageset/None.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/Image/BatteryImageCache.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/Image/NSImageExtension.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/MenuInfoView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/MenuInfoViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/StatusBarIcon.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/StatusBarItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/StatusItem/StatusItemMenu.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatteryBuddy/UpdateViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BatteryBuddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BatteryBuddy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/xcuserdata/neday.xcuserdatad/xcschemes/BatteryBuddy.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy.xcodeproj/xcuserdata/neday.xcuserdatad/xcschemes/BatteryBuddy.xcscheme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryBuddy/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/AccentColor.colorset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/AppIcon.appiconset/AppIcon@2x~32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon@2x~32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/AppIcon.appiconset/AppIcon~16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon~16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Happy.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Happy.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Happy.imageset/Happy.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Happy.imageset/Happy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Happy.imageset/Happy@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Happy.imageset/Happy@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Maximum Width.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Maximum Width.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Maximum Width.imageset/Maximum Width.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Maximum Width.imageset/Maximum Width.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Maximum Width.imageset/Maximum Width@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Maximum Width.imageset/Maximum Width@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Minimum Width.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Minimum Width.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Minimum Width.imageset/Minimum Width.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Minimum Width.imageset/Minimum Width.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Minimum Width.imageset/Minimum Width@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Minimum Width.imageset/Minimum Width@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Neutral.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Neutral.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Neutral.imageset/Neutral.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Neutral.imageset/Neutral.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Neutral.imageset/Neutral@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Neutral.imageset/Neutral@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Charging.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Charging.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Charging.imageset/Plug Charging.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Charging.imageset/Plug Charging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Charging.imageset/Plug Charging@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Charging.imageset/Plug Charging@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Not Charging.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Not Charging.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Not Charging.imageset/Plug Not Charging.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Not Charging.imageset/Plug Not Charging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Plug Not Charging.imageset/Plug Not Charging@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Plug Not Charging.imageset/Plug Not Charging@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Sad.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Sad.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Sad.imageset/Sad.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Sad.imageset/Sad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Sad.imageset/Sad@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Sad.imageset/Sad@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Unknown.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Unknown.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Unknown.imageset/Unknown.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Unknown.imageset/Unknown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets/Unknown.imageset/Unknown@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Resources/Assets.xcassets/Unknown.imageset/Unknown@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryBuddy/BatteryBuddy.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryBuddy.entitlements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryBuddy/BatteryBuddyApp.swift" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/BatteryBuddyApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/ContentView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatteryBuddy/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryBuddy/Info.plist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_macos_arm64" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bc273f6d-6252-4cd9-869d-d7b96af23853" />
+        <option name="url" value="git@github.com:nEdAy/BatteryBuddy.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,8 +129,13 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BatteryBuddy/Assets.xcassets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BatteryBuddy" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BatteryBuddy" TARGET_NAME="BatteryBuddy" CONFIG_NAME="Debug" SCHEME_NAME="BatteryBuddy" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="BatteryBuddy" RUN_TARGET_NAME="BatteryBuddy" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -68,7 +159,17 @@
       <workItem from="1645587410441" duration="38000" />
       <workItem from="1645587481413" duration="38000" />
       <workItem from="1645587857191" duration="14000" />
-      <workItem from="1645587880951" duration="10796000" />
+      <workItem from="1645587880951" duration="12306000" />
+      <workItem from="1645752632636" duration="580000" />
+      <workItem from="1645753243988" duration="722000" />
+      <workItem from="1645754454683" duration="1256000" />
+      <workItem from="1646020227061" duration="14000" />
+      <workItem from="1646360482248" duration="66000" />
+      <workItem from="1646374759183" duration="1937000" />
+      <workItem from="1646616904073" duration="2702000" />
+      <workItem from="1646644864131" duration="3735000" />
+      <workItem from="1646707061037" duration="8585000" />
+      <workItem from="1647848031961" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="add images">
       <created>1645597210719</created>
@@ -105,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645598334090</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify UI">
+      <created>1645691445677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645691445677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +237,7 @@
     <MESSAGE value="add AppDelegate class" />
     <MESSAGE value="add gitignore(AppCode Swift)" />
     <MESSAGE value="add AppCode config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add AppCode config" />
+    <MESSAGE value="modify UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify UI" />
   </component>
 </project>

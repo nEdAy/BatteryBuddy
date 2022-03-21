@@ -4,5 +4,9 @@
 <dict>
 	<key>LSUIElement</key>
 	<true/>
+	<key>SUFeedURL</key>
+	<string></string>
+	<key>SUPublicEDKey</key>
+	<string>x3XXBlp8TKob57TmoDHqulP3vtlWhbcz5x4LdQy1Opw=</string>
 </dict>
 </plist>
